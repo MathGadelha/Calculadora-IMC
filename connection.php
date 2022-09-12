@@ -1,6 +1,9 @@
 <?php
 require_once __DIR__ . 'connection.php';
 
+$conn = new Connection();
+$pdo = $conn->getConnection();
+
 class connection
 {
     protected $db

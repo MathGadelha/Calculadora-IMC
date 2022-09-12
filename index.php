@@ -3,31 +3,9 @@
 
     require_once __DIR__ . 'config.php'
 
-$tns = "(DESCRIPTION = 
-(ADDRESS LIST=
-  (ADDRESS =
-      (PROTOCOL=TCP)
-      (HOST=" . DB_SERVER . ")
-      (PORT=" . DB_PORT . ")
-      )
-    )
-(CONNECT_DATA=
-  (SERVER=DEDICATED)
-  (SERVICE_NAME=" . TNS_NAMES . ")
-  )
-)";
 
-try{
-  $pdo = new PDO('oci:db_name=' . $tns, USER, PASS);
-  $pdo -> setAttribute(PDO:: ATTR_CASE, PDO:: CASE_LOWER);
-  $pdo -> setAttribute(PDO:: ATTR_ERRMODE, PDO:: ERRMODE_EXCEPTION);
-  echo 'Connection is complete!'
-}catch (PDOException $e) {
-  die($e -> getMessage());
-}
-
-$query = $pdo->query('SELECT * FROM IMC')
-$rows = $query->fetchAll(PDO::FECTH_OBJ);
+    $query = $pdo->query('SELECT * FROM IMC')
+    $rows = $query->fetchAll(PDO::FECTH_OBJ);
 
 ?>
 

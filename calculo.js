@@ -49,6 +49,10 @@ if(IMC < 18.5){
     console.log(IMC);
       }
 
+      foto.innerHTML = `
+      
+      `
+
 
 
 }

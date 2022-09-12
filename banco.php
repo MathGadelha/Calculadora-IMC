@@ -24,7 +24,7 @@ if(isset($_POST['submit']))
     $peso = $_POST['peso'];
   
 
-    $result = mysqli_query($conexao, "INSERT INTO formulario(nome, idade, tamanho, peso)
+    $result = mysqli_query($conexao, "INSERT INTO IMC(imc_name, imc_idade, imc_tamanho, imc_peso)
     VALUES('$nome','$idade','$tamanho','$peso')");
 }
 
