@@ -4,7 +4,7 @@ function calculo(){
     var tam = document.getElementById("tam").value;
     var peso = document.getElementById("peso").value;
     var foto = document.getElementById("foto-peso");
-    var tabela = document.getElementById("");
+
 
     var tamM = tam/100; 
 
@@ -48,11 +48,9 @@ if(IMC < 18.5){
     `
     console.log(IMC);
       }
-
-      foto.innerHTML = `
-      
-      `
-
+      else{
+        
+      }
 
 
 }

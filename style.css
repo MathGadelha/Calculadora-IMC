@@ -13,9 +13,7 @@
     /* backdrop-filter: blur(3px); */
     /* filter: blur(0, 8px); */
 }
-.fundo{
-    backdrop-filter: blur(3px);
-}
+s
 .area-logo {
     color: white;
     float: left;
@@ -62,16 +60,17 @@
 
 #tabela {
     background-color: #e70000;
-    width: 600px;
+    width: 300px;
     float: right;
-    margin-right: 50px;
-    margin-top: 80px;
+    margin-right: 5px;
+    margin-top: 20px;
     border-radius: 10px;
-    text-align: center;
+  
 
 }
 
 table {
+    float: right;
     background: #d2d2c1;
     width: 100%;
     border-bottom-left-radius: 10px;
@@ -86,36 +85,36 @@ tr {
 #foto-peso {
     float: right;
     margin-top: 60px;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 .foto-baixo{
     float: right;
     width: 100px;
     margin-top: 250px;
-    margin-right: -400px;
+    
 
 }
 .foto-normal{
     float: right;
     width: 100px;
     margin-top: 250px;
-    margin-right: -400px;
+    
 }
 .foto-acp{
     float: right;
     width: 100px;
     margin-top: 250px;
-    margin-right: -400px;
+    
 }
 .foto-ob2{
     float: right;
     width: 100px;
     margin-top: 250px;
-    margin-right: -400px;
+    
 }
 .foto-ob3{
     float: right;
     width: 100px;
     margin-top: 250px;
-    margin-right: -400px;
+    
 }
